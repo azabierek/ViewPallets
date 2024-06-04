@@ -1,0 +1,47 @@
+﻿@using ViewPallets.Application.PalletDTOs;
+@model PalletDto?
+@{
+    <div class="row mt-3">
+        <div class="col-xxl-3">
+        <h2>DETAILS</h2>
+            <table class="table table-bordered table-responsive-lg table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th>LENGTH [mm]</th>
+                        <th>WIDTH [mm]</th>
+                        <th>HEIGHT [mm]</th>
+                        <th>WEIGHT [kg]</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="text text-center">
+                        <td>@Model.Length</td>
+                        <td>@Model.Width</td>
+                        <td>@Model.Height</td>
+                        <td>@Model.Weight</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-xxl-9">
+            <h2>CONTENTS</h2>
+            <table class="table table-bordered table-responsive-lg table-light table-striped">
+                <thead>
+                    <tr>
+                        <th>ITEM NAME</th>
+                        <th>QUANTITY</th>
+                    </tr>
+                </thead>
+                <tbody class="text text-center">
+                    @foreach(var item in Model.Details!)
+                    {
+                        <tr>
+                            <td>@item.ItemName</td>
+                            <td>@item.Quantity</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}

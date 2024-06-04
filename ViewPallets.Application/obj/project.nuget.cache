@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "HbCZX1Z5qhcCS6ZixdIZU/hRQeCkFUyKCQzHG8zck5sIuGUBDyWBplm40lr8q9gnIL+WQ4KCQoHKBMMz9Ar7tQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.Application\\ViewPallets.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adrzab\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\adrzab\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\adrzab\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\adrzab\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\adrzab\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\adrzab\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\adrzab\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

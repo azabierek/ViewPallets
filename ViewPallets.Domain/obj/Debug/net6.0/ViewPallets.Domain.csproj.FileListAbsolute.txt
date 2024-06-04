@@ -1,0 +1,12 @@
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Domain\bin\Debug\net6.0\ViewPallets.Domain.deps.json
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Domain\bin\Debug\net6.0\ViewPallets.Domain.dll
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Domain\bin\Debug\net6.0\ViewPallets.Domain.pdb
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Domain\obj\Debug\net6.0\ViewPallets.Domain.csproj.AssemblyReference.cache
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Domain\obj\Debug\net6.0\ViewPallets.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Domain\obj\Debug\net6.0\ViewPallets.Domain.AssemblyInfoInputs.cache
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Domain\obj\Debug\net6.0\ViewPallets.Domain.AssemblyInfo.cs
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Domain\obj\Debug\net6.0\ViewPallets.Domain.csproj.CoreCompileInputs.cache
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Domain\obj\Debug\net6.0\ViewPallets.Domain.dll
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Domain\obj\Debug\net6.0\refint\ViewPallets.Domain.dll
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Domain\obj\Debug\net6.0\ViewPallets.Domain.pdb
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Domain\obj\Debug\net6.0\ref\ViewPallets.Domain.dll

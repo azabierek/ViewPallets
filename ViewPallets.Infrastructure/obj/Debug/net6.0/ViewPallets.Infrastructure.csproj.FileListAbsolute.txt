@@ -1,0 +1,17 @@
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\bin\Debug\net6.0\ViewPallets.Infrastructure.deps.json
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\bin\Debug\net6.0\ViewPallets.Infrastructure.runtimeconfig.json
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\bin\Debug\net6.0\ViewPallets.Infrastructure.dll
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\bin\Debug\net6.0\ViewPallets.Infrastructure.pdb
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\bin\Debug\net6.0\ViewPallets.Domain.dll
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\bin\Debug\net6.0\ViewPallets.Domain.pdb
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\obj\Debug\net6.0\ViewPallets.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\obj\Debug\net6.0\ViewPallets.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\obj\Debug\net6.0\ViewPallets.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\obj\Debug\net6.0\ViewPallets.Infrastructure.AssemblyInfo.cs
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\obj\Debug\net6.0\ViewPallets.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\obj\Debug\net6.0\ViewPallets.Infrastructure.csproj.CopyComplete
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\obj\Debug\net6.0\ViewPallets.Infrastructure.dll
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\obj\Debug\net6.0\refint\ViewPallets.Infrastructure.dll
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\obj\Debug\net6.0\ViewPallets.Infrastructure.pdb
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\obj\Debug\net6.0\ViewPallets.Infrastructure.genruntimeconfig.cache
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.Infrastructure\obj\Debug\net6.0\ref\ViewPallets.Infrastructure.dll
