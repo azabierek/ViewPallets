@@ -5,12 +5,28 @@
       "PackagePath": "staticwebassets\\ViewPallets.MVC.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\content\\favicon.ico",
+      "PackagePath": "staticwebassets\\content\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\content\\mercor_logo.png",
+      "PackagePath": "staticwebassets\\content\\mercor_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\content\\pl.png",
+      "PackagePath": "staticwebassets\\content\\pl.png"
+    },
+    {
+      "Id": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\content\\qrExample.png",
+      "PackagePath": "staticwebassets\\content\\qrExample.png"
+    },
+    {
+      "Id": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\content\\uk.png",
+      "PackagePath": "staticwebassets\\content\\uk.png"
+    },
+    {
+      "Id": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\js\\site.js",

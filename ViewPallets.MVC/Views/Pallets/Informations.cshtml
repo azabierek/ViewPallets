@@ -1,16 +1,29 @@
 ﻿@using ViewPallets.Application.PalletDTOs;
 @model PalletDto?
 @{
-    <div class="row mt-3">
-        <div class="col-xxl-3">
-        <h2>DETAILS</h2>
+    <div>
+        <h4 id="projectH">IDENTYFIKATOR PROJEKTU</h4>
+        <p>HO232160</p>
+    </div>
+    <div>
+        <h4 id="customerH">ODBIORCA</h4>
+        <p>Jakiś tam klient HARDEN CONSTRUCTION</p>
+    </div>
+    <div>
+        <h4 id="projectNameH">NAZWA PROJEKTU</h4>
+        <p>PANATTONI RADZYMIN</p>
+    </div>
+    <div class="row mt-5">
+        <div class="col-xxl-4">
+            <h4 id="detailsH">SZCZEGÓŁY</h4>
+            <h5>ID: </h5>
             <table class="table table-bordered table-responsive-lg table-dark table-striped">
                 <thead>
                     <tr>
-                        <th>LENGTH [mm]</th>
-                        <th>WIDTH [mm]</th>
-                        <th>HEIGHT [mm]</th>
-                        <th>WEIGHT [kg]</th>
+                        <th id="A">DŁUGOŚĆ [mm]</th>
+                        <th id="B">SZEROKOŚĆ [mm]</th>
+                        <th id="H">WYSOKOŚĆ [mm]</th>
+                        <th id="W">WAGA [kg]</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -23,13 +36,13 @@
                 </tbody>
             </table>
         </div>
-        <div class="col-xxl-9">
-            <h2>CONTENTS</h2>
-            <table class="table table-bordered table-responsive-lg table-light table-striped">
+        <div class="col-xxl-8">
+            <h4 id="contentsH">ZAWARTOŚĆ</h4>
+            <table class="table table-bordered table-responsive-lg table-dark table-striped">
                 <thead>
                     <tr>
-                        <th>ITEM NAME</th>
-                        <th>QUANTITY</th>
+                        <th id="nameTh">NAZWA ELEMENTU</th>
+                        <th id="quantityTh">ILOŚĆ</th>
                     </tr>
                 </thead>
                 <tbody class="text text-center">
