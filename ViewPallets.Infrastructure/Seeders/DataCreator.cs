@@ -19,6 +19,9 @@ namespace ViewPallets.Infrastructure.Seeders
                 Length = 2800,
                 Width = 1350,
                 Weight = 274,
+                CustomerName = "HONDA GDAŃSK",
+                ProjectId = "HON-102",
+                ProjectName = "MAIN ORDER",
                 Details = CreateFirstDetailsList()
             });
             range.Add(new Pallet()
@@ -28,6 +31,9 @@ namespace ViewPallets.Infrastructure.Seeders
                 Length = 2000,
                 Width = 1050,
                 Weight = 155,
+                CustomerName = "SUZUKI GDYNIA",
+                ProjectId = "SUZ-223",
+                ProjectName = "SUZ ORDER 22",
                 Details = CreateSecondDetailsList()
             });
 
