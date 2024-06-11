@@ -1,15 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using ViewPallets.Application.Services;
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using ViewPallets.Application.PalletCQRS.Queries.GetPalletInformations;
 
 namespace ViewPallets.MVC.Controllers
 {
     public class PalletsController : Controller
     {
-        private readonly IPalletService _palletService;
+        private readonly IMediator _mediator;
 
-        public PalletsController(IPalletService palletService)
+        public PalletsController(IMediator mediator)
         {
-            _palletService = palletService;
+            _mediator = mediator;
         }
         public IActionResult Index()
         {
@@ -19,7 +20,11 @@ namespace ViewPallets.MVC.Controllers
         [Route("Pallets/Informations/{palletNumber}")]
         public async Task<IActionResult> Informations(string palletNumber)
         {
-            var dto = await _palletService.FindPalletDetails(palletNumber);
+            var dto = await _mediator.Send(new GetPalletInformationsQuery()
+            {
+                palletNumberMediatR = palletNumber
+            });
+
             if(dto==null)
                 return RedirectToAction("Index");
             return View(dto);

@@ -1,6 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 using ViewPallets.Application.Mappings;
-using ViewPallets.Application.Services;
+using ViewPallets.Application.PalletCQRS.Queries.GetPalletInformations;
 
 namespace ViewPallets.Application.Extensions
 {
@@ -8,8 +9,7 @@ namespace ViewPallets.Application.Extensions
     {
         public static void AddApplication(this IServiceCollection services) 
         {
-            services.AddScoped<IPalletService, PalletService>();
-
+            services.AddMediatR(typeof(GetPalletInformationsQuery));
             services.AddAutoMapper(typeof(PalletMappingProfile));
         }
     }

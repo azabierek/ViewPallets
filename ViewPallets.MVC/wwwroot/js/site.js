@@ -16,9 +16,7 @@ function changeLanguage() {
     const W = document.getElementById('W');
     const nameTh = document.getElementById('nameTh');
     const quantityTh = document.getElementById('quantityTh');
-    const customerH = document.getElementById('customerH');
     const projectH = document.getElementById('projectH');
-    const projectNameH = document.getElementById('projectNameH');
 
     if (selectedLanguage == 'PL') {
         if (mainHeader !== null) {
@@ -34,9 +32,7 @@ function changeLanguage() {
             W.innerText = 'WAGA [mm]';
             nameTh.innerText = 'NAZWA ELEMENTU';
             quantityTh.innerText = 'ILOŚĆ';
-            customerH.innerText = 'ODBIORCA';
             projectH.innerText = 'IDENTYFIKATOR PROJEKTU';
-            projectNameH.innerText = 'NAZWA PROJEKTU';
 
         }
     }
@@ -54,9 +50,7 @@ function changeLanguage() {
             W.innerText = 'WEIGHT [mm]';
             nameTh.innerText = 'ITEM NAME';
             quantityTh.innerText = 'QUANTITY';
-            customerH.innerText = 'CUSTOMER NAME';
             projectH.innerText = 'PROJECT ID';
-            projectNameH.innerText = 'PROJECT NAME';
         }
     }
 }

@@ -74,3 +74,5 @@ C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.MVC\bin\Debug\net6.0\AutoMa
 C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.MVC\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.MVC\bin\Debug\net6.0\ViewPallets.Application.dll
 C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.MVC\bin\Debug\net6.0\ViewPallets.Application.pdb
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.MVC\bin\Debug\net6.0\MediatR.dll
+C:\Users\adrzab\source\repos\ViewPallets\ViewPallets.MVC\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

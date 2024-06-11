@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "toVX0Dq4WZR7hWzKFzen/h6CYyOY9fOttHztSvGTyKA=",
+  "Hash": "+ZWutuusfZkbvQMHd6RHtFpPrqDwfdi8/eLSLLv3UV8=",
   "Source": "ViewPallets.MVC",
   "BasePath": "_content/ViewPallets.MVC",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\lmicon.png",
+      "SourceId": "ViewPallets.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\",
+      "BasePath": "_content/ViewPallets.MVC",
+      "RelativePath": "lmicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lmicon.png"
     }
   ]
 }

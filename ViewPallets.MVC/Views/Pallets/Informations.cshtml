@@ -1,17 +1,9 @@
 ﻿@using ViewPallets.Application.PalletDTOs;
 @model PalletDto?
 @{
-    <div>
-        <h4 id="projectH">IDENTYFIKATOR PROJEKTU</h4>
-        <p>@Model.ProjectId</p>
-    </div>
-    <div>
-        <h4 id="customerH">ODBIORCA</h4>
-        <p>@Model.CustomerName</p>
-    </div>
-    <div>
-        <h4 id="projectNameH">NAZWA PROJEKTU</h4>
-        <p>@Model.ProjectName</p>
+    <div class="text-center mt-3">
+        <h1 id="projectH">IDENTYFIKATOR PROJEKTU</h1>
+        <h2>@Model.ProjectId</h2>
     </div>
     <div class="row mt-5">
         <div class="col-xxl-4">
