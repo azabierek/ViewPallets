@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+ZWutuusfZkbvQMHd6RHtFpPrqDwfdi8/eLSLLv3UV8=",
+  "Hash": "mtdpKUKv0P5Xz9yBdpHdpdaAcyFQ9Qf8UnP0YNkHWqo=",
   "Source": "ViewPallets.MVC",
   "BasePath": "_content/ViewPallets.MVC",
   "Mode": "Default",
@@ -66,23 +66,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\content\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\content\\mercor_logo.png",
-      "SourceId": "ViewPallets.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\",
-      "BasePath": "_content/ViewPallets.MVC",
-      "RelativePath": "content/mercor_logo.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\content\\mercor_logo.png"
     },
     {
       "Identity": "C:\\Users\\adrzab\\source\\repos\\ViewPallets\\ViewPallets.MVC\\wwwroot\\content\\pl.png",

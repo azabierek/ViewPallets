@@ -14,7 +14,6 @@ namespace ViewPallets.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
-
         public async Task<Pallet?> FindPalletDetails(string palletNumber) => await _dbContext.Pallet.Include(x=>x.Details).FirstOrDefaultAsync(x => x.PalletNumber == palletNumber);
          
     }

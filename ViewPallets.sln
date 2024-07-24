@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewPallets.MVC", "ViewPallets.MVC\ViewPallets.MVC.csproj", "{49468FCF-8B33-427B-9D12-0754AA2F9FC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewPallets.MVC", "ViewPallets.MVC\ViewPallets.MVC.csproj", "{49468FCF-8B33-427B-9D12-0754AA2F9FC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewPallets.Domain", "ViewPallets.Domain\ViewPallets.Domain.csproj", "{D2441AFD-85B7-43FB-8951-487872A9DC58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewPallets.Domain", "ViewPallets.Domain\ViewPallets.Domain.csproj", "{D2441AFD-85B7-43FB-8951-487872A9DC58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewPallets.Infrastructure", "ViewPallets.Infrastructure\ViewPallets.Infrastructure.csproj", "{B4DFC6EF-E9BD-4CAF-951E-75D0BB8F8817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewPallets.Infrastructure", "ViewPallets.Infrastructure\ViewPallets.Infrastructure.csproj", "{B4DFC6EF-E9BD-4CAF-951E-75D0BB8F8817}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewPallets.Application", "ViewPallets.Application\ViewPallets.Application.csproj", "{FE90F759-4345-42A2-ABCE-01112C410EC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewPallets.Application", "ViewPallets.Application\ViewPallets.Application.csproj", "{FE90F759-4345-42A2-ABCE-01112C410EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewPallets.DomainTests", "ViewPallets.DomainTests\ViewPallets.DomainTests.csproj", "{77BF214E-8E2D-4152-BD83-93C330C45530}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6C2B7FB0-32F8-4CD2-8487-F1686648B4AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewPallets.Application.Tests", "ViewPallets.Application.Tests\ViewPallets.Application.Tests.csproj", "{13EFB96D-CDDE-4F4F-A151-E5D33466DC34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +39,21 @@ Global
 		{FE90F759-4345-42A2-ABCE-01112C410EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE90F759-4345-42A2-ABCE-01112C410EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE90F759-4345-42A2-ABCE-01112C410EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BF214E-8E2D-4152-BD83-93C330C45530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BF214E-8E2D-4152-BD83-93C330C45530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BF214E-8E2D-4152-BD83-93C330C45530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BF214E-8E2D-4152-BD83-93C330C45530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13EFB96D-CDDE-4F4F-A151-E5D33466DC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13EFB96D-CDDE-4F4F-A151-E5D33466DC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13EFB96D-CDDE-4F4F-A151-E5D33466DC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13EFB96D-CDDE-4F4F-A151-E5D33466DC34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77BF214E-8E2D-4152-BD83-93C330C45530} = {6C2B7FB0-32F8-4CD2-8487-F1686648B4AC}
+		{13EFB96D-CDDE-4F4F-A151-E5D33466DC34} = {6C2B7FB0-32F8-4CD2-8487-F1686648B4AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E44FCE5-7980-4F03-9901-721D9E520499}
