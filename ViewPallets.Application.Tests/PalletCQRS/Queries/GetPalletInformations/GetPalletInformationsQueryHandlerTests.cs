@@ -1,10 +1,4 @@
 ﻿using Xunit;
-using ViewPallets.Application.PalletCQRS.Queries.GetPalletInformations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using AutoMapper;
 using Moq;
 using ViewPallets.Domain.Entities;
@@ -17,7 +11,7 @@ namespace ViewPallets.Application.PalletCQRS.Queries.GetPalletInformations.Tests
     public class GetPalletInformationsQueryHandlerTests
     {
         [Fact()]
-        public async void HandleTest()
+        public async void GetPalletInformationsQuery_NewPalletInformationsShouldReturnNull()
         {
             //arrange
             var pallet = new Pallet();
